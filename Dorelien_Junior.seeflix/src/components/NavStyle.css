@@ -1,0 +1,23 @@
+.NavBarStyle{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fbfcfc;
+    padding: 2%;
+
+}
+
+.NavBarStyle ul {
+    display: flex;
+    gap: 50px;
+    padding: 8px;
+    list-style: none;
+    color: inherit;
+
+}
+.NavBarStyle ul li a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+}
+.NavBarStyle img{
+    width: 200px;
+}

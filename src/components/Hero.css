@@ -1,0 +1,30 @@
+.heroStyle{
+    background-image: url(/Hero-Background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 0;
+    padding-top: 0;
+    
+
+}
+.heroStyle h1{
+    padding-top: 100px;
+    margin-left: 15%;
+}
+.heroStyle p{
+    padding-top: 5px;
+    margin-left: 15%;
+}
+.heroStyle button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+     margin-left: 15%;
+    cursor: pointer;
+    color: aliceblue;
+}

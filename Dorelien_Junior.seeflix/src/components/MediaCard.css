@@ -1,0 +1,14 @@
+.CardStyle{
+    justify-content: center;
+    margin-top: 15px;
+    background-size: cover;
+    background-size: auto;
+
+}
+.CardStyle img{
+    height: 500px;
+}
+
+.listMediaStyle{
+    display: flex;
+}
