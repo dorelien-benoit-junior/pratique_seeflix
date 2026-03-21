@@ -3,7 +3,6 @@ import MediaCard from "./MediaCard";
 
 
 
-
 export default function MediaList({title,items=[]}){
 
     return(
@@ -11,7 +10,7 @@ export default function MediaList({title,items=[]}){
     <div>
         <h2>{title}</h2>
         {items.map((item)=>(
-            <MediaCard title={item.title} cover={item.cover} rating={item.rating}/>
+            <MediaCard id={item.id} title={item.title} cover={item.cover} rating={item.rating} type={item.type}/>
         ))}
     </div>
     </>

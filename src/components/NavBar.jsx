@@ -1,4 +1,5 @@
 import "./NavStyle.css"
+import { Link, NavLink } from "react-router-dom"
 
 
 export default function NavBar() {
@@ -10,10 +11,10 @@ export default function NavBar() {
 
             <div>
                 <ul>
-                    <b><li><a href="">Home</a></li></b>
-                    <b><li><a href="">Media</a></li></b>
-                    <b><li><a href="">About</a></li></b>
-                    <b><li><a href="">Contact</a></li></b>
+                    <b><li><Link to="/">Home</Link></li></b>
+                    <b><li><Link to="/Media">Media</Link></li></b>
+                    <b><li><Link to="/About">About</Link></li></b>
+                    <b><li><Link to="/Contact">Contact</Link></li></b>
                 </ul>
             </div>
         </section>

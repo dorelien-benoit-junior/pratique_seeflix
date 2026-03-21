@@ -1,7 +1,7 @@
 
 import "./MediaCard.css"
 
-export default function MediaCard({ id, title, cover, rating ,type}){
+export default function MediaCard({ id, title, cover, rating, type}){
 
     return(
         <div className='listMediaStyle'>
@@ -9,6 +9,7 @@ export default function MediaCard({ id, title, cover, rating ,type}){
             <img src={cover}></img>
             <h3>{id}. {title}</h3>
             <span>Rating: {rating}</span>
+            <p>{type}</p>
         </card>
 
 
