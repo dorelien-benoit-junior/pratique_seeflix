@@ -162,4 +162,11 @@ export const MediaData = [
     rating: 3.5,
     type: "tvshows"
   },
+    {
+    id: 24,
+    title: "Spartacus",
+    cover: "../Spartacus.jpg",
+    rating: 8.5,
+    type: "tvshows"
+  },
 ];

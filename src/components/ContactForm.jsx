@@ -40,6 +40,7 @@ function ContactForm() {
                 name="mail"
                 onChange={setChange}
                 value={formData.mail}
+                required
                 />
                 <br />
                 <textarea
@@ -47,6 +48,7 @@ function ContactForm() {
                 onChange={setChange}
                 name="text"
                 value={formData.text}
+                required
                 />
                 <br />
                 <button type="submit">Send</button>
