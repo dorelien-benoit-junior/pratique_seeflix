@@ -4,7 +4,7 @@ import "./MediaCard.css"
 export default function MediaCard({ id, title, cover, rating, type}){
 
     return(
-        <div className='listMediaStyle'>
+        <div>
         <card className="CardStyle">
             <img src={cover}></img>
             <h3>{id}. {title}</h3>

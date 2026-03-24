@@ -1,0 +1,21 @@
+.HeroAboutStyle{
+    background-image: url(/HeroAboutUs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HeroAboutStyle h1{
+text-align: center;
+    color: aliceblue;
+
+}
+.HeroAboutStyle p{
+text-align: center;
+    color: aliceblue;
+}

@@ -1,9 +1,11 @@
-// import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar";
+import HeroAbout from "../components/heroAbout";
 
 export default function About(){
     return(
         <>
-        <p>Texte sur l'entreprise ira ici!</p>
+        <NavBar/>
+        <HeroAbout/>
             
         
         </>

@@ -1,24 +1,18 @@
-.heroStyle{
+.heroContactStyle{
     background-image: url(/Hero-Background1.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
     margin-top: 0;
     padding-top: 0;
-    
-
 }
-.heroStyle h1{
+.heroContactStyle h1{
     padding-top: 100px;
     margin-left: 15%;
     color: aliceblue;
 }
-.heroStyle p{
-    padding-top: 5px;
-    margin-left: 15%;
-    color: aliceblue;
-}
-.heroStyle button{
+
+.heroContactStyle button{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 50px;
@@ -31,6 +25,6 @@
     text-decoration-color: none;
     color: azure;
 }
-.heroStyle button:hover{
+.heroContactStyle button:hover{
     transform: scale(0.9);
 }

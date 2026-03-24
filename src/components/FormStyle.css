@@ -1,0 +1,99 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #e8ebf0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formeStyle {
+  background-color: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+  padding: 48px 40px;
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  margin-top: 10px;
+}
+
+.formeStyle::before {
+  content: "Contactez-nous";
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.formeStyle input,
+.formeStyle textarea {
+  width: 100%;
+  padding: 14px 16px;
+  background-color: #242424;
+  border: 1px solid #333;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: inherit;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  outline: none;
+}
+
+.formeStyle input::placeholder,
+.formeStyle textarea::placeholder {
+  color: #666;
+}
+
+.formeStyle input:focus,
+.formeStyle textarea:focus {
+  border-color: #f52626;
+  box-shadow: 0 0 0 3px rgba(252, 63, 82, 0.15);
+}
+
+.formeStyle textarea {
+  height: 140px;
+  resize: none;
+}
+
+.formeStyle br {
+  display: none;
+}
+
+.formeStyle button {
+  margin-top: 8px;
+  padding: 14px;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  letter-spacing: 0.5px;
+}
+
+.formeStyle button:hover {
+  background-color: #b70303;
+}
+
+.formeStyle button:active {
+  transform: scale(0.98);
+}
+.formWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

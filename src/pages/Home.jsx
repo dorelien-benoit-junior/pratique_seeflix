@@ -6,9 +6,9 @@ import { MediaData } from "../data/mediaData";
 export default function Home(){
     return(
         <>
-        <Header/>
-        <MediaList items={MediaData} title={"Streaming"}/>
-         {/* <MediaList items={top_shows} title={"Top Shows"}/> */}
+            <Header/>
+            <MediaList items={MediaData} title={"Streaming"}/>
+            {/* <MediaList items={top_shows} title={"Top Shows"}/> */}
         </>
     )
 }
