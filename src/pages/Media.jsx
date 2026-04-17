@@ -1,13 +1,12 @@
 // import React from "react";
-import MediaList from "../components/MediaList";
-import { MediaData } from "../data/mediaData";
+import StreamingContent from "../components/StreamingContent";
 import NavBar from "../components/NavBar";
 
 export default function Media(){
     return(
         <>
             <NavBar/>
-            <MediaList items={MediaData} title={"Streaming"}/>
+            <StreamingContent/>
         
         </>
     )

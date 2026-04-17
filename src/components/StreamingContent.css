@@ -1,0 +1,25 @@
+.streamingContentWrapper {
+  background: linear-gradient(180deg, rgba(15, 15, 30, 0.95) 0%, rgba(25, 25, 45, 0.95) 100%);
+  min-height: 100vh;
+  padding: 40px 20px;
+  position: relative;
+}
+
+.streamingContentWrapper > div {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.streamingContentWrapper .aboutSection {
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 40px;
+}
+
+.streamingContentWrapper .aboutSection h2 {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 32px;
+}
+
+.streamingContentWrapper .aboutSection p {
+  color: rgba(255, 255, 255, 0.8);
+}

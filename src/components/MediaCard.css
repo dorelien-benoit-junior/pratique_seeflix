@@ -39,3 +39,50 @@
 .CardStyle p {
     margin: 5px 10px;
 }
+
+.dropdownContainer {
+    width: 100%;
+    padding: 10px;
+}
+
+.dropdownButton {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: azure;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.dropdownButton:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    margin-left: 8px;
+}
+
+.arrow.open {
+    transform: rotate(180deg);
+}
+
+.dropdownContent {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    max-height: 150px;
+    overflow-y: auto;
+    color: azure;
+}
